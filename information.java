@@ -1,3 +1,4 @@
+
 import java.io.*;
 class info{
     public static void main(String[]t)throws IOException{
