@@ -9,5 +9,6 @@ class operation{
         System.out.println("Multiply :"+ (a*b));
         System.out.println("Division :"+ (a/b));
         System.out.println("Modulus : "+ (a%b));
+        sc.close();
     }
 }

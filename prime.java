@@ -16,5 +16,6 @@ class primenumber{
         {
         System.out.println("Not a Prime number");
         }
+        sc.close();
     }
 }

@@ -22,5 +22,6 @@ public class count {
     System.out.println("Number of letters: " + a);
     System.out.println("Number of digits: " + d);
     System.out.println("Number of special characters: " + s);
+    scanner.close();
 }
 }
