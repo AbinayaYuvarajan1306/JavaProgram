@@ -1,13 +1,13 @@
 class  example{
-    int value = 18;
+    int data = 18;
 }
 class example2 extends example{
-    int value = 24;
+    int data = 24;
 }
 public class shadow{
     public static void main(String[]a){
         example2 s1 = new example2();
-        System.out.println("value of s1 :"+s1.value);
+        System.out.println("value of s1 :"+s1.data);
 
     }
 }
