@@ -9,7 +9,7 @@ public class height{
     public static int getHeight(TreeNode root){
         if(root == null)
             return -1;
-        return Math.max(getHeight(root.left),getHeight(root.right))+1;
+        return Math.max(getHeight(root.left),getHeight(root.right));
     }
     public static void main(String[]args){
         TreeNode root = new TreeNode(1);
